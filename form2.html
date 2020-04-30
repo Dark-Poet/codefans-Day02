@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A form</title>
+  <style>
+  .box{
+    border: 2px solid grey;
+    border-top: 1px solid grey;
+    max-width: 500px;
+   
+   margin: 40px 100px;
+   
+   
+   
+  
+  }
+ #push{
+   margin-top: -15px;
+ }
+ .divider{
+   width: 90%;
+    
+  }
+  .head{
+    padding-left: 20px;
+    margin-bottom: -18px;
+  }
+ 
+  label{
+    display: inline-block;
+    width:140px;
+    
+    text-align: right;
+    
+  }
+  span{
+    color:grey;
+    font-size: 15px;
+    
+  }
+  button{
+    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-left: 80px;
+  }
+  .form{
+    display: grid;
+    justify-content: center;
+  }
+  #user-name{
+    position: relative;
+    left: 20px;
+  }
+  #password{
+    position: relative;
+    left: 40px;
+  }
+ 
+    
+
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    <!--this is a section for what comes next -->
+    <div class="head">
+    <h2> Login Window</h2>
+    <p id="push">Welcome to the My Site</p>
+    </div>
+    <hr class="divider">
+    <div class="form">
+    <form action="#" method="POST" accept-charset="utf-8">
+      <div><label for="user-name">Username</label><br><span>It's your username/email</span>
+        <input type="text" id="user-name"></div>
+      <div>
+        <label for="password">Password</label><br><span>Enter your password</span>
+        <input type="password" id="password"></div>
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+      </div>
+    </form>
+    </div>
+</body>
+
+</html>
